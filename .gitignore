@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Auxillary Folders/Files
+# Auxillary folders and files
 /public/
 .eslintrc.cjs
 package-lock.json
