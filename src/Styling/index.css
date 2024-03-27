@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply font-['Inter'];
+}
+
+.navOptions {
+    @apply text-base leading-5 font-semibold ml-4;
+}
+
+.navButtons {
+    @apply w-8 h-8 rounded hover:bg-slate-100;
+}
+
+.headerOptions {
+    @apply text-[#333333] hover:font-medium;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
